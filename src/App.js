@@ -1,4 +1,4 @@
-import { FormTodo, Todo } from "./components";
+import { FormTodo } from "./components/Todo";
 import "./App.css";
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
       <h1>{name}</h1>
       <p>coba berubah gak</p>
       <FormTodo />
-      <Todo />
     </div>
   );
 }
